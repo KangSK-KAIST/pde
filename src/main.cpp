@@ -1,8 +1,7 @@
 #include <SDL2/SDL.h>
 
-#include <iostream>
-
-#include "config.hpp"
+#include "include.hpp"
+#include "pde/pde.hpp"
 
 SDL_Window* gWindow = nullptr;
 SDL_Surface* gScreenSurface = nullptr;
